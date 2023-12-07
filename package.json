@@ -1,0 +1,14 @@
+{
+  "name": "convert-money-project-with-async",
+  "version": "1.0.0",
+  "description": "Conversor de moedas, utilizando API com cotações em tempo real.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Cavalcante Miranda de Araújo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

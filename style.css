@@ -1,0 +1,137 @@
+/*font-family: 'Roboto', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #99e3f3;
+}
+
+.logo {
+    width: 200px;
+    display:block;
+    margin: 0px auto;
+}
+
+main {
+    width: 375px;
+    background: #f4f4f4;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px; /* 1) cima 2)lados 3)baixo */
+   /* padding: 44px;  Aplica para os 4 lados */
+   /* padding: 44px 24px;  1) cima e baixo 2)lados */
+   /* padding: 44px 24px 23px 20px;  1) cima 2)direita 3)baixo 4)esquerda */
+    margin-bottom: 10px;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select, input {
+    background: #FFFFFF;
+    border: 1px solid #BBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color:  #777777;
+    cursor: pointer;
+}
+
+input {
+    cursor: default;
+}
+
+button {
+    background: #5b8e99;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #99e3f3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 20px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.real {
+    width: 60px;
+    
+}
+
+.convert {
+    width: 40px;
+    height: 40px;
+}
+
+.dolar {
+    width: 60px;
+    
+}
+.euro {
+    width: 60px;
+    
+}
+
+.currency-real, .currency-dolar {
+    color: #777777;
+    font-size: 14px;
+    
+}
+
+
+
+.currency-value, .currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.div-real {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+.div-moedas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+}
